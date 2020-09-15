@@ -13,7 +13,7 @@ import numpy as np
 import os
 
 """
-=====================================获取cpu、内存数据=========================================
+=====================================获取数据=========================================
 """
 
 
@@ -29,6 +29,7 @@ def face_image_qulity():
 
     print(len(image_list))
     return image_list
+
 
 """
 =============================使用获取到的数据画图========================================
@@ -46,7 +47,7 @@ def face_image_plot_hist():
     # bins用于设置区间,即10岁一个区间
     y_list = face_image_qulity()
     bins = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-    plt.hist(y_list, bins, rwidth=0.8,label="采样数值："+str(len(y_list)))   # 画直方图
+    plt.hist(y_list, bins, rwidth=0.8, label="采样数值："+str(len(y_list)))   # 画直方图
     plt.title('人脸质量检测结果')
     plt.xlabel("人脸检测数值")
     plt.ylabel("人脸检测结果对应样本数")
