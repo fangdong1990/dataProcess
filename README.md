@@ -28,3 +28,7 @@ chmod +x ./cpu_mem_collect.sh   # 改为可执行文件
 
 
 ### `csv_data_create.py`解决jemter压测的数据依赖
+
+
+### face_data_insert_mysql.py  实现大量人脸数据测试
+    根据csv文件导出人脸数据，调用人脸增量接口上传数据到数据库

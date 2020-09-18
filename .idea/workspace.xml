@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2982ab0d-b4ab-4661-895b-7ef76e3d4d20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jmter_test_data/csv_data_create.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attendance_data/face_data_insert_mysql.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/CpuMemPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/attendance_data/CpuMemPlot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/faceImageQulity.py" beforeDir="false" afterPath="$PROJECT_DIR$/attendance_data/faceImageQulity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,14 +16,14 @@
     <session id="-239394874">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.0" value="4" />
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.2" value="5" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -34,54 +31,37 @@
           <entry key="gitignore" value="1" />
           <entry key="java" value="1" />
           <entry key="jpg" value="2" />
-          <entry key="md" value="1" />
-          <entry key="py" value="34" />
+          <entry key="md" value="3" />
+          <entry key="py" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Git file" value="1" />
           <entry key="Image" value="2" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="34" />
+          <entry key="Python" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="py" value="1736" />
+          <entry key="md" value="94" />
+          <entry key="py" value="2135" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Markdown" value="94" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="1736" />
+          <entry key="Python" value="2135" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/attendance_data/faceImageQulity.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1014">
-              <caret line="60" column="26" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/attendance_data/base64_get_image.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,14 +87,17 @@
         <option value="$PROJECT_DIR$/url_get_image.py" />
         <option value="$PROJECT_DIR$/jmter_test_data/csv_data_create.py" />
         <option value="$PROJECT_DIR$/attendance_data/faceImageQulity.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/attendance_data/face_data_insert_mysql.py" />
+        <option value="$PROJECT_DIR$/attendance_data/url_get_image.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="366" />
-    <option name="y" value="103" />
-    <option name="width" value="1478" />
-    <option name="height" value="950" />
+    <option name="x" value="247" />
+    <option name="y" value="64" />
+    <option name="width" value="1531" />
+    <option name="height" value="760" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -122,7 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,10 +126,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../shebei" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Jenkins-runner/IMRoute-ApiTest" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RunDashboard">
@@ -162,8 +145,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.url_get_image">
-    <configuration name="CpuMemPlot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.url_get_image (1)">
+    <configuration name="base64_get_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dataProcess" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,11 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Image" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/attendance_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Image/CpuMemPlot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/attendance_data/base64_get_image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,7 +188,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="faceImageQulity" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="face_data_insert_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dataProcess" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -213,11 +196,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Image" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/attendance_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Image/faceImageQulity.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/attendance_data/face_data_insert_mysql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="url_get_image (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dataProcess" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/attendance_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/attendance_data/url_get_image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -248,17 +252,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.CpuMemPlot" />
-      <item itemvalue="Python.faceImageQulity" />
       <item itemvalue="Python.base64to_image" />
       <item itemvalue="Python.url_get_image" />
+      <item itemvalue="Python.face_data_insert_mysql" />
+      <item itemvalue="Python.base64_get_image" />
+      <item itemvalue="Python.url_get_image (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.url_get_image (1)" />
+        <item itemvalue="Python.face_data_insert_mysql" />
+        <item itemvalue="Python.base64_get_image" />
         <item itemvalue="Python.url_get_image" />
         <item itemvalue="Python.base64to_image" />
-        <item itemvalue="Python.faceImageQulity" />
-        <item itemvalue="Python.CpuMemPlot" />
       </list>
     </recent_temporary>
   </component>
@@ -285,10 +291,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="366" y="103" width="1478" height="950" extended-state="0" />
-    <editor active="true" />
+    <frame x="247" y="64" width="1531" height="760" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1760707" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -298,13 +303,13 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.21366595" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25398773" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32883435" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32883435" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Run" order="3" weight="0.4428773" />
+      <window_info anchor="right" id="Run" order="3" weight="0.41332427" />
+      <window_info anchor="right" id="Terminal" order="4" weight="0.4477612" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -325,24 +330,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Image/gfxinfoPlot.py" />
     <entry file="file://$PROJECT_DIR$/text.py" />
     <entry file="file://$PROJECT_DIR$/1.jpg" />
-    <entry file="file://$PROJECT_DIR$/image_oss_url/image_oss_url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/image_oss_url/image_oss_url.py" />
     <entry file="file://D:/Python37/Lib/urllib/request.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="727">
@@ -350,40 +341,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/url_get_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="e#98#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jmter_test_data/csv_data_create.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4014">
-          <caret line="215" lean-forward="true" selection-start-line="215" selection-end-line="215" />
-          <folding>
-            <element signature="e#97#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base64_get_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/attendance_data/url_get_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/url_get_image.py" />
+    <entry file="file://$PROJECT_DIR$/base64_get_image.py" />
     <entry file="file://$PROJECT_DIR$/attendance_data/CpuMemPlot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-810">
@@ -391,17 +350,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jmter_test_data/csv_data_create.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="505">
+            <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/attendance_data/faceImageQulity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1014">
+        <state relative-caret-position="857">
           <caret line="60" column="26" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/attendance_data/base64_get_image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="133">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attendance_data/url_get_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attendance_data/face_data_insert_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="e#97#107#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
